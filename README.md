@@ -16,3 +16,10 @@ python3 ~/blue-lodge/lib/tools/module_audit.py .
 # Install into any Blue Lodge node
 /app install <git_url_or_gitea/mod-starter-template>
 ```
+
+---
+
+## License & Disclaimer
+
+Licensed under the **Apache License, Version 2.0** — see [LICENSE](LICENSE) and [NOTICE](NOTICE).
+Provided **"AS IS"** for informational and experimental use only; verify safety-critical decisions with certified instruments and professionals.
