@@ -1,0 +1,44 @@
+[
+  {
+    "type": "function",
+    "function": {
+      "name": "starter_list_entries",
+      "description": "List recent entries stored in Starter's local SQLite ledger (.george/module_data/starter-template/app.db).",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "limit": {
+            "type": "integer",
+            "description": "Maximum rows to return (default 20, max 100)."
+          }
+        },
+        "required": []
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "starter_save_entry",
+      "description": "Persist a structured entry or agent briefing into Starter's local SQLite ledger.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string",
+            "description": "Short descriptive title."
+          },
+          "category": {
+            "type": "string",
+            "description": "Optional tag or category (e.g. note, briefing, alert)."
+          },
+          "body": {
+            "type": "string",
+            "description": "Markdown or plain-text entry body."
+          }
+        },
+        "required": ["title", "body"]
+      }
+    }
+  }
+]

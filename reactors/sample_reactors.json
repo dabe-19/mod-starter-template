@@ -1,0 +1,12 @@
+{
+  "reactors": [
+    {
+      "id": "rx_starter_sample",
+      "module_id": "starter-template",
+      "enabled": false,
+      "event_type": "starter.event",
+      "description": "Sample Event Bus reactor template (disabled by default).",
+      "action": "/workflow run-loop starter-template/sample_briefing"
+    }
+  ]
+}

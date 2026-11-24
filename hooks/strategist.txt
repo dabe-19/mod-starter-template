@@ -1,0 +1,1 @@
+When working on Starter tasks, prefer native +starter tools (starter_list_entries, starter_save_entry) to persist structured results into the module's SQLite ledger.
